@@ -69,6 +69,8 @@ sex_mapping = {'Male': 0, 'Female': 1}
 vaccine_mapping = {'Covaxin': 0, 'Covishield': 1}
 health_mapping = {'None': 0, 'Asthma': 1, 'Diabetes': 2, 'Hypertension': 3, 'Heart Disease': 4}
 
+#Note:- Please enter the input in the same format of given option. Or esle it will end up showing invalid input. 
+
 sex = input("Enter sex (Male/Female): ")
 age = int(input("Enter age: "))
 vaccine = input("Enter vaccine (Covaxin/Covishield): ")
